@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-[rgb(244,221,221)]">
+
+    <div class="wrapper">
+
+        <div class="container pt-[106px] max-w-[390px] pb-10 text-black px-[34px] mx-auto bg-white">
+
+            <h1 class="text-center text-[24px] font-bold mb-5">Hi, Welcome Back! 👋</h1>
+
+            <form action="" id="form" class="flex flex-col">
+                
+                <div class="flex flex-col gap-[6px] items-start mb-5">
+                    <label class="text-[14px] text-[#695C5C]" for="email">Email</label>
+                    <input  type="text" class="bg-white w-[100%] px-[10px] py-[12px] outline-none rounded-[10px] text-[#000000B3]" placeholder="example@gmail.com" name="email" id="email">
+                </div>
+
+                <div class="flex flex-col gap-[6px] items-start mb-6">
+                    <label class="text-[14px] text-[#695C5C]" for="password">Password</label>
+                    <input type="text" class="bg-white w-[100%] px-[10px] py-[12px] rounded-[10px] outline-none text-[#000000B3]" placeholder="Enter Your Password" name="password" id="password">
+                </div>
+
+                <div class="flex justify-between mb-8">
+                    <div class="flex gap-2 items-center">
+                        <input type="checkbox" checked="checked" class="checkbox" />
+                        <p class="text-[#000C14] text-[16px] font-semibold">Remember Me</p>
+                    </div>
+
+                    <p class="text-[#E86969] font-medium text-[16px] cursor-pointer">Forgot Password?</p>
+                </div>
+
+                <button type="submit" class="btn btn-primary h-[48px] mb-[75px] text-white font-semibold">Login</button>
+
+                <div class="flex gap-[10px] items-center mb-[33px]">
+                    <span class="border border-[#00000080] w-[37%]"></span>
+                    <p class="text-[#000000CC] text-[18px]">Or With</p>
+                    <span class="border border-[#00000080] w-[37%]"></span>
+                </div>
+
+                <div class="flex flex-col gap-[21px] mb-[35px]">
+                    <!-- Facebook -->
+                    <button class="btn h-[48px] bg-[#1A77F2] text-white border-[#005fd8]">
+                    <svg aria-label="Facebook logo" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="white" d="M8 12h5V8c0-6 4-7 11-6v5c-4 0-5 0-5 3v2h5l-1 6h-4v12h-6V18H8z"></path></svg>
+                    Login with Facebook
+                    </button>
+
+                    <!-- Google -->
+                    <button class="btn h-[48px] bg-white text-black border-[#00000066]">
+                    <svg aria-label="Google logo" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><g><path d="m0 0H512V512H0" fill="#fff"></path><path fill="#34a853" d="M153 292c30 82 118 95 171 60h62v48A192 192 0 0190 341"></path><path fill="#4285f4" d="m386 400a140 175 0 0053-179H260v74h102q-7 37-38 57"></path><path fill="#fbbc02" d="m90 341a208 200 0 010-171l63 49q-12 37 0 73"></path><path fill="#ea4335" d="m153 219c22-69 116-109 179-50l55-54c-78-75-230-72-297 55"></path></g></svg>
+                    Login with Google
+                    </button>
+                </div>
+
+                <div class="flex gap-1 justify-center">
+                    <p class="text-[#0D0E0E] font-semibold">Don’t have an account ? </p>
+                    <a href="./sign_up.html" class="text-[#160062] font-semibold">Sign Up</a>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>

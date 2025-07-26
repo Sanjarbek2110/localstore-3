@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "first_name": "Sunnatbek",
+      "last_name": "Yusupov",
+      "email": "sunnatbek@example.com",
+      "password": "Sunnat123!",
+      "confirm_password": "Sunnat123!",
+      "phone": "+998901234567",
+      "birth_date": "2000-01-01",
+      "gender": "male",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Fergana",
+        "city": "Qo‘qon",
+        "street": "Mustaqillik 12-uy",
+        "zip_code": "150700"
+      },
+      "agreement": true
+    },
+    {
+      "first_name": "Laylo",
+      "last_name": "Karimova",
+      "email": "laylo.karimova@example.com",
+      "password": "Laylo2024*",
+      "confirm_password": "Laylo2024*",
+      "phone": "+998931112233",
+      "birth_date": "1998-05-15",
+      "gender": "female",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Toshkent",
+        "city": "Toshkent",
+        "street": "Shayxontohur 45",
+        "zip_code": "100100"
+      },
+      "agreement": true
+    },
+    {
+      "first_name": "Jasur",
+      "last_name": "Rasulov",
+      "email": "jasur.r@example.com",
+      "password": "Jasur_321",
+      "confirm_password": "Jasur_321",
+      "phone": "+998909876543",
+      "birth_date": "1995-11-23",
+      "gender": "male",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Samarqand",
+        "city": "Samarqand",
+        "street": "Registon yo‘li 7",
+        "zip_code": "140100"
+      },
+      "agreement": true
+    },
+    {
+      "first_name": "Dilnoza",
+      "last_name": "Islomova",
+      "email": "dilnoza.islomova@example.com",
+      "password": "Dilnoza#99",
+      "confirm_password": "Dilnoza#99",
+      "phone": "+998935551122",
+      "birth_date": "2001-03-10",
+      "gender": "female",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Buxoro",
+        "city": "Buxoro",
+        "street": "Amir Temur ko‘chasi 9",
+        "zip_code": "200200"
+      },
+      "agreement": true
+    },
+    {
+      "first_name": "Aziz",
+      "last_name": "Toirov",
+      "email": "aziz.toirov@example.com",
+      "password": "Aziz789!",
+      "confirm_password": "Aziz789!",
+      "phone": "+998937778899",
+      "birth_date": "1993-09-30",
+      "gender": "male",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Andijon",
+        "city": "Andijon",
+        "street": "Navro‘z 34",
+        "zip_code": "170300"
+      },
+      "agreement": true
+    },
+    {
+      "first_name": "Malika",
+      "last_name": "Raufova",
+      "email": "malika.raufova@example.com",
+      "password": "Malika2023?",
+      "confirm_password": "Malika2023?",
+      "phone": "+998934448866",
+      "birth_date": "1997-06-21",
+      "gender": "female",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Namangan",
+        "city": "Namangan",
+        "street": "Bog‘ ko‘chasi 22",
+        "zip_code": "160500"
+      },
+      "agreement": true
+    },
+    {
+      "first_name": "Shoxrux",
+      "last_name": "Bekmirzaev",
+      "email": "shoxrux.b@example.com",
+      "password": "Shoxrux_444",
+      "confirm_password": "Shoxrux_444",
+      "phone": "+998935676767",
+      "birth_date": "1992-12-12",
+      "gender": "male",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Xorazm",
+        "city": "Urganch",
+        "street": "Al-Xorazmiy 15",
+        "zip_code": "220100"
+      },
+      "agreement": true
+    },
+    {
+      "first_name": "Zarina",
+      "last_name": "Qudratova",
+      "email": "zarina.q@example.com",
+      "password": "Zarina2025@",
+      "confirm_password": "Zarina2025@",
+      "phone": "+998902223344",
+      "birth_date": "1996-08-08",
+      "gender": "female",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Qashqadaryo",
+        "city": "Qarshi",
+        "street": "Shodlik 5",
+        "zip_code": "180400"
+      },
+      "agreement": true
+    },
+    {
+      "first_name": "Muhammad",
+      "last_name": "Aliyev",
+      "email": "muhammad.aliyev@example.com",
+      "password": "Aliyev1990!",
+      "confirm_password": "Aliyev1990!",
+      "phone": "+998936660088",
+      "birth_date": "1990-04-14",
+      "gender": "male",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Surxondaryo",
+        "city": "Termiz",
+        "street": "Istiqlol 19",
+        "zip_code": "190100"
+      },
+      "agreement": true
+    },
+    {
+      "first_name": "Nigora",
+      "last_name": "Soliyeva",
+      "email": "nigora.s@example.com",
+      "password": "Nigora!777",
+      "confirm_password": "Nigora!777",
+      "phone": "+998907700011",
+      "birth_date": "2002-02-28",
+      "gender": "female",
+      "country": "Uzbekistan",
+      "address": {
+        "region": "Jizzax",
+        "city": "Jizzax",
+        "street": "Zarafshon 2",
+        "zip_code": "130100"
+      },
+      "agreement": true
+    }
+  ]
+}
